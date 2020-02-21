@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0; 
+}
+@font-face{
+	font-family: "regular";
+	src:url('Proxima Nova/Proxima Nova Reg.otf');
+}
+@font-face{
+    font-family: "semibold";
+    src: url('Proxima Nova/Proxima Nova Semibold.otf');
+}
+@font-face{
+    font-family: "bold";
+    src: url('Proxima Nova/Proxima Nova Bold.otf');
+}
+body{
+    font-family: "regular";
+    color:black
+}
+.navbar-nav .nav-item .nav-link{
+    color:black;
+    font-size: 14px;
+    font-family: semibold;
+    letter-spacing: 0.4px;
+}
+.navbar-nav .nav-item:active{
+    color:green;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ .dropdown1:hover{
+    border-bottom: none;
+ }
+ .dropdown-item:hover{
+    background-color: white;
+ }
+
+ .register{
+    text-align: center;
+    color:red;
+}
+
+.register:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #8AB31B;
+    border-bottom-size:5px;
+    height: 35px;
+}
+
+.article{
+    text-align: center;
+}
+.article:hover{
+     border-bottom-style: solid;
+    border-bottom-color: #8AB31B;
+    border-bottom-size:5px;
+    height: 35px;
+}
+.buy{
+    text-align: center;
+}
+.buy:hover{
+     border-bottom-style: solid;
+    border-bottom-color: #8AB31B;
+    border-bottom-size:5px;
+    height: 35px;
+}
+.language{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.contact:hover{
+     border-bottom-style: solid;
+    border-bottom-color: #8AB31B;
+    border-bottom-size:5px;
+    height: 35px;
+}
+.image{
+    width:55%;
+    height: 100%;
+   }
+
+.audio{
+    font-family:semibold;
+    width:200px;
+    margin-right: 2%;
+    background-color: #8AB31B;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    border-color: #8AB31B;
+}
+
+.exercise{
+    font-family:semibold;
+    width:200px;
+    margin-right: 2%;
+    background-color: #F2A716;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    border-color:#F2A716;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators li:active {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  color:green !important;
+}
+.carousel{
+    margin-top: 13%;
+}
+
+.card-hover .reveal {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+
+}
+
+.card-hover:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s ease;
+    margin-top: -190px;
+}
+h1{
+    font-family: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.for_btn{
+    margin-top: 5%;
+}
+.for_large_logo{
+    margin-top: 9%;
+}
+.image1{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+}
+.card{
+    height: 250px;
+}
+.card-hover .reveal{
+    margin-top: -100px;
+    visibility: hidden;
+}
+.card-hover:hover .reveal{
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s ease;
+    margin-top: -10px;
+}
+.buy1{
+font-size: 70%;
+display: block;
+ font-family: semibold;
+ background-color: #8AB31B;
+ border-color:#8AB31B;
+ opacity: 1;
+margin-bottom: 10px;
+}
+.buy1:hover{
+    font-size: 70%;
+display: block;
+ font-family: semibold;
+ background-color: gray;
+ border-color:gray;
+ opacity: 1;
+margin-bottom: 10px;
+
+}
+.code{
+font-size: 70%;  
+display: block;
+ font-family: semibold;
+  background-color: gray;
+  border-color:gray;
+  opacity:  1;
+}
+.code:hover{
+font-size: 70%;  
+display: block;
+ font-family: semibold;
+  background-color: gray;
+  border-color:gray;
+  opacity:  1;
+}
+.book_title{
+    font-size: regular;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 4%;
+}
+.price{
+    font-size: semibold;
+    color:#8AB31B;
+    text-align: center;
+}
+.buy_books{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.shadow1{
+     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.001), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.footer img{
+    opacity: 0.9;
+    margin-top: 5%;
+}
+
+
+.information{
+  margin-top: 25%; 
+}
+ .footer{
+    margin-top: 5%;
+ 
+   background-color: black;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.footer img{
+    margin:40%;
+}
+.phone{
+    font-family: semibold;
+    color:white;
+    font-size:14px;
+    letter-spacing: 1px;
+    line-height: 0.9;
+}
+.information p {
+     font-family: regular;
+     color:white;
+     font-size:11px;
+     padding-left: 3%;
+     letter-spacing: 1px;
+     line-height: 2;
+}
+.email{
+      font-family: regular;
+     color:white;
+     font-size:12px;
+     
+     letter-spacing: 1px;
+     line-height: 2;
+}
+.email i{
+    font-size:12px;
+}
+.profile{
+    width: 100%;
+    height: 555px;
+    background-image: url('image/2222.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+.profile_card{
+    margin-top: -500px;
+}
+.profile_rounded{
+    border-radius: 5%;
+     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.001), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.form-design input[type=text]{
+background-color:red;
+}
